@@ -436,7 +436,7 @@ A B C D E"""
   *           *        
     *       *
       *   *
-        *"""
+        *       """
 # for i in range(1, 5):
 #     for j in range(i, 5):
 #         print(" ", end=" ")
@@ -465,7 +465,7 @@ A               I
   A           G        
     A       E
       A   C
-        A"""
+        A         """
 # for i in range(1, 5):
 #     for j in range(i, 5):
 #         print(" ", end=" ")
@@ -503,9 +503,106 @@ A               I
 #     print()
 
 
+""" *        *
+    **      **
+    ***    ***
+    ****  ****
+    **********
+    ****  ****
+    ***    ***
+    **      **
+    *        *"""
+# for i in range(5, 0, -1):
+#     for j in range(5, i - 1, -1):
+#         print("*", end="")
+#     for j in range(1, 2 * i - 1):
+#         print(" ", end="")
+#     for j in range(5, i - 1, -1):
+#         print("*", end="")
+#     print()
+# for i in range(1, 5):
+#     for j in range(i, 5):
+#         print("*", end="")
+#     for j in range(1, 2 * i + 1):
+#         print(" ", end="")
+#     for j in range(i, 5):
+#         print("*", end="")
+#     print()
+
+
+""" ***** *****
+    ****   ****
+    ***     ***
+    **       **
+    *         *
+    *         *
+    **       **
+    ***     ***
+    ****   ****
+    ***** *****"""
+# for i in range(1, 6):
+#     for j in range(i, 6):
+#         print("*", end="")
+#     for j in range(1, 2 * i):
+#         print(" ", end="")
+#     for j in range(i, 6):
+#         print("*", end="")
+#     print()
+
+# for i in range(5, 0, -1):
+#     for j in range(5, i - 1, -1):
+#         print("*", end="")
+#     for j in range(1, 2 * i):
+#         print(" ", end="")
+#     for j in range(5, i - 1, -1):
+#         print("*", end="")
+#     print()
+
+
+"""       1 
+        2 3 2 
+      3 4 5 4 3
+    4 5 6 7 6 5 4
+  5 6 7 8 9 8 7 6 5"""
+# n = 5
+# for i in range(1, n + 1):
+#     for j in range(i, n + 1):
+#         print(" ", end=" ")
+#     num = i
+#     for j in range(1, i + 1):
+#         print(num, end=" ")
+#         num += 1
+#     num -= 2
+#     for j in range(1, i):
+#         print(num, end=" ")
+#         num -= 1
+#     print()
+
+
+# for i in range(1, 6):
+#     for j in range(i, 6):
+#         if i == 5 or j == i or i == 1:
+#             print(j, end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
+
+""" E 
+    D E
+    C D E
+    B C D E
+    A B C D E"""
+# for i in range(1, 6):
+#     x = 70 - i
+#     for j in range(i):
+#         print(chr(x + j), end=" ")
+#     print()
+
+
 for i in range(1, 6):
-    p = 69
-    for j in range(1, i + 1):
-        print(chr(p), end=" ")
-        p += 1
+    for j in range(i, 6):
+        if i == 1 or j == i or j == 5:
+            print(j, end=" ")
+        else:
+            print(" ", end=" ")
     print()

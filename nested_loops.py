@@ -279,7 +279,23 @@
 #         p += 1
 #     print()
 
+
+"""1 2 3 4 
+   1 2 3 
+   1 2
+   1"""
+# for i in range(1, 5):
+#     for j in range(1, 5 + 1 - i):
+#         print(j, end=" ")
+#     print()
+
+
 for i in range(1, 5):
-    for j in range(1, 5 + 1 - i):
-        print(j, end=" ")
+    for j in range(1, 5 - i):
+        print("-", end=" ")
+    for j in range(1, i + 1):
+        if j == 1 or i == 4 or j == i:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
     print()
