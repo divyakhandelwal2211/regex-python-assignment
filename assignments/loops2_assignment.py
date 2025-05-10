@@ -123,11 +123,11 @@ equal to the original number."""
 
 
 """wap to find ones complement of a number"""
-binary = input("enter the number in binary: ")
-ones_complement = ""
-for i in binary:
-    if i == "1":
-        ones_complement += "0"
-    else:
-        ones_complement += "1"
-print(ones_complement)
+# binary = input("enter the number in binary: ")
+# ones_complement = ""
+# for i in binary:
+#     if i == "1":
+#         ones_complement += "0"
+#     else:
+#         ones_complement += "1"
+# print(ones_complement)
