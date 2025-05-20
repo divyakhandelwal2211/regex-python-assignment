@@ -320,12 +320,12 @@
 # Example: ((1, 2), (3, 4)) → [1, 2, 3, 4]
 
 
-tuple_of_tuples = (1, (1, (5, 6), 2), 2, (3, 4))
-flat_list = []
+# tuple_of_tuples = (1, (1, 2), 2, (3, 4))
+# flat_list = []
 
-for i in tuple_of_tuples:
-    if type(i) == tuple:
-        flat_list.extend(i)
-    else:
-        flat_list.append(i)
-print(flat_list)
+# for i in tuple_of_tuples:
+#     if type(i) == tuple:
+#         flat_list.extend(i)
+#     else:
+#         flat_list.append(i)
+# print(flat_list)
