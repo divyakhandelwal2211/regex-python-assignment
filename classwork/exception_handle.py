@@ -85,9 +85,8 @@
 # print(x)
 
 
-try:
-    with open("file.txt", "r") as f:
-        f.write("hi")
-        raise FileNotFoundError
-except FileNotFoundError:
-    print("file not exist")
+# try:
+#     with open("file.txt", "r") as f:
+#         raise FileNotFoundError
+# except FileNotFoundError:
+#     print("file not exist")
