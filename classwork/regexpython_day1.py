@@ -9,47 +9,47 @@ Original file is located at
 
 print("hello world")
 
-print('hello')
-print('divya')
+print("hello")
+print("divya")
 
-print('hello',end='$')
-print('divya')
+print("hello", end="$")
+print("divya")
 
 x = 10
 print(x)
 
 x = 10
-print( type(x))
-
-x ="10"
 print(type(x))
 
-address = '''society
+x = "10"
+print(type(x))
+
+address = """society
 location
-india'''
+india"""
 print(type(address))
 
 """# string formatting"""
 
 # string formatting
 company = "regex software"
-yr=2025
-print(f"ny company name is {company} and current year is {yr}")
+yr = 2025
+print(f"my company name is {company} and current year is {yr}")
 
 username = "tushar"
 msg = f"my user is {username}"
 print(msg)
-username="aman"
+username = "aman"
 print(msg)
 
-1+2*2/4-1
+1 + 2 * 2 / 4 - 1
 
 age = 40
-age %=5
+age %= 5
 print(age)
 
-x=10
-x>2 or x>70 and x==10
+x = 10
+x > 2 or x > 70 and x == 10
 
 "j" in "Jaipur"
 
@@ -70,86 +70,86 @@ city[-4:-1:-1]
 """# if-else"""
 
 age = 19
-if(age>5 and age<20):
-  print("Regex")
+if age > 5 and age < 20:
+    print("Regex")
 else:
-  print("Divya")
+    print("Divya")
 
 num = 10
-if(num%2==0 and num%5==0):
-  print("number is divisible by both 2 and 5")
+if num % 2 == 0 and num % 5 == 0:
+    print("number is divisible by both 2 and 5")
 else:
-  print("not divisible by both")
+    print("not divisible by both")
 
 age = 16
-if(age == 16):
-  print("age is 16")
-elif(age == 18):
-  print("age is 18")
+if age == 16:
+    print("age is 16")
+elif age == 18:
+    print("age is 18")
 else:
-  print("age is not 16 or 18")
+    print("age is not 16 or 18")
 
 num = 25
-if(num%2==0):
-  print("divided by 2")
-elif(num%5==0):
-  print("divided by 5")
+if num % 2 == 0:
+    print("divided by 2")
+elif num % 5 == 0:
+    print("divided by 5")
 else:
-  print("not divided by 2 or 5")
+    print("not divided by 2 or 5")
 
 a = 4
 b = 2
 c = 3
-if(a<b and a<c):
-  print("a is smallest")
-elif(b<a and b<c):
-  print("b is smallest")
+if a < b and a < c:
+    print("a is smallest")
+elif b < a and b < c:
+    print("b is smallest")
 else:
-  print("c is smallest")
+    print("c is smallest")
 
-age =45
-if(age > 10 and age <25):
-  print("young")
-elif(age >25 and age < 35):
-  print("adult")
-elif(age >35 and age<65):
-  print("married")
-elif(age > 65):
-  print("senior citizen")
+age = 45
+if age > 10 and age < 25:
+    print("young")
+elif age > 25 and age < 35:
+    print("adult")
+elif age > 35 and age < 65:
+    print("married")
+elif age > 65:
+    print("senior citizen")
 else:
-  print("child")
+    print("child")
 
-age =27
-if(age > 65):
-  print("senior citizen")
-elif(age > 35):
-  print("married")
-elif(age > 25):
-  print("adult")
-elif(age > 10):
-  print("young")
+age = 27
+if age > 65:
+    print("senior citizen")
+elif age > 35:
+    print("married")
+elif age > 25:
+    print("adult")
+elif age > 10:
+    print("young")
 else:
-  print("child")
+    print("child")
 
-age =17
-if(age>10):
-  print("age is greater than 10")
-  if(age >15):
-    print("greater than 10 and 15")
+age = 17
+if age > 10:
+    print("age is greater than 10")
+    if age > 15:
+        print("greater than 10 and 15")
 else:
-  print("age is smaller than 10")
-
-num = 8
-if(num%2==0):
-  print("divided by 2")
-  if(num%5==0):
-    print("divided by 2 and 5")
-else:
-  print("not divisible")
+    print("age is smaller than 10")
 
 num = 8
-if(num%2==0):
-    if (num%5==0):
+if num % 2 == 0:
+    print("divided by 2")
+    if num % 5 == 0:
+        print("divided by 2 and 5")
+else:
+    print("not divisible")
+
+num = 8
+if num % 2 == 0:
+    if num % 5 == 0:
         print("the number is divided by both")
     else:
         print("the number only divide by 2")
@@ -157,153 +157,152 @@ else:
     print("not divisable to both")
 
 
-
 age = 26
-if(age >18):
-  if(age >25):
-    print("person eligible for vote and marriage")
-  else:
-    print("eligible for vote")
+if age > 18:
+    if age > 25:
+        print("person eligible for vote and marriage")
+    else:
+        print("eligible for vote")
 else:
-  print("not satisfied condition")
+    print("not satisfied condition")
 
 """#loops"""
 
-for i in range(0,5):
-  print("hello",i)
+for i in range(0, 5):
+    print("hello", i)
 
-for i in range(6,1,-1):
-  print("hello",i)
+for i in range(6, 1, -1):
+    print("hello", i)
 
 piggybank = 0
-for i in range(1,8):
-  piggybank+=i
-  print(piggybank,i)
+for i in range(1, 8):
+    piggybank += i
+    print(piggybank, i)
 
-total=0
-for i in range(11,41):
-  total+=i
-  print(total)
+total = 0
+for i in range(11, 41):
+    total += i
+    print(total)
 
-total=0
-for i in range(97,47,-1):
-  total+=i
+total = 0
+for i in range(97, 47, -1):
+    total += i
 print(total)
 
-for i in range(1,8):
-  if(i%2==0):
-    print("even",i)
+for i in range(1, 8):
+    if i % 2 == 0:
+        print("even", i)
 
-for i in range(55,38,-1):
-  if(i%2==0 and i%3==0):
-    print(i)
+for i in range(55, 38, -1):
+    if i % 2 == 0 and i % 3 == 0:
+        print(i)
 
-count=0
-for i in range(2,41):
-  if(i%4==0):
-    count+=1
+count = 0
+for i in range(2, 41):
+    if i % 4 == 0:
+        count += 1
 print(count)
 
 num = 8
 # find factor
-for i in range(1,9):
-  if(num%i==0):
-    print(i)
+for i in range(1, 9):
+    if num % i == 0:
+        print(i)
 
 num = int(input("enter a number: "))
 count = 0
-for i in range(1,num+1):
-  if(num%i==0):
-    count+=1;
-if(count>4):
-  print("YES")
+for i in range(1, num + 1):
+    if num % i == 0:
+        count += 1
+if count > 4:
+    print("YES")
 else:
-  print("NO")
+    print("NO")
 
 data = "hey"
-for i in range(0,3):
-  print(i,data[i])
+for i in range(0, 3):
+    print(i, data[i])
 
 data = "hello"
-for i in range(0,len(data)):
-  print(data[i])
+for i in range(0, len(data)):
+    print(data[i])
 
 data = "divya"
-vowel_count=0
-for i in range(0,len(data)):
-  if(data[i] in "aeiou"):
-    vowel_count+=1
+vowel_count = 0
+for i in range(0, len(data)):
+    if data[i] in "aeiou":
+        vowel_count += 1
 print(vowel_count)
 
 num = int(input("enter a number: "))
 count = 0
-for i in range(1,num+1):
-  if(num%i==0):
-    count+=1
+for i in range(1, num + 1):
+    if num % i == 0:
+        count += 1
 
-if(count>2):
-  print("not a prime number")
+if count > 2:
+    print("not a prime number")
 else:
-  print("prime number")
+    print("prime number")
 
-num =8
-a =0
-for i in range(2,num):
-  if(num%i==0):
-    a=1
-    break
-if(a==1):
-  print("not prime")
+num = 8
+a = 0
+for i in range(2, num):
+    if num % i == 0:
+        a = 1
+        break
+if a == 1:
+    print("not prime")
 else:
-  print("prime")
+    print("prime")
 
 num = 9
-a=0
-if(num%2==0 and num%3==0 and num%6==0):
-  a = 1
-if(a ==1):
-  print("TRUE")
+a = 0
+if num % 2 == 0 and num % 3 == 0 and num % 6 == 0:
+    a = 1
+if a == 1:
+    print("TRUE")
 else:
-  print("FALSE")
+    print("FALSE")
 
 num = int(input("enter the number: "))
 
-if(num >=90):
-  print("A")
-elif(num>=80 and num<=89):
-  print("B")
-elif(num>=70 and num<=79):
-  print("C")
-elif(num>=60 and num <=69):
-  print("D")
-elif(num <= 60):
-  print("F")
+if num >= 90:
+    print("A")
+elif num >= 80 and num <= 89:
+    print("B")
+elif num >= 70 and num <= 79:
+    print("C")
+elif num >= 60 and num <= 69:
+    print("D")
+elif num <= 60:
+    print("F")
 else:
-  print(" enter between 0-100")
+    print(" enter between 0-100")
 
 a = int(input("enter a: "))
 b = int(input("enter b: "))
 c = int(input("enter c: "))
 if (a + b > c) and (a + c > b) and (b + c > a):
-  if(a==b and b==c and c==a):
-    print("equilateral")
-  elif(a==b or b==c or c==a):
-    print("isosceles")
-  elif(a!=b and b!=c and c!=a):
-    print("scalene")
+    if a == b and b == c and c == a:
+        print("equilateral")
+    elif a == b or b == c or c == a:
+        print("isosceles")
+    elif a != b and b != c and c != a:
+        print("scalene")
 else:
-  print("not a triangle")
+    print("not a triangle")
 
 num = int(input("enter current time: "))
 
-if(num>=5 and num<12):
-  print("good morning")
-elif(num>=12 and num<17):
-  print("good afternoon")
-elif(num>=17 and num<21):
-  print("good evening")
+if num >= 5 and num < 12:
+    print("good morning")
+elif num >= 12 and num < 17:
+    print("good afternoon")
+elif num >= 17 and num < 21:
+    print("good evening")
 else:
-  print("good night")
+    print("good night")
 
 """while loop
 
@@ -311,81 +310,80 @@ else:
 
 sum = 0
 i = 2
-while(i<21):
-  sum = sum+i
-  i+=1
+while i < 21:
+    sum = sum + i
+    i += 1
 print(sum)
 
 i = 98
 total = 0
-while (i>57):
-  if(i%2!=0):
-    total+=i
-  i-=1
+while i > 57:
+    if i % 2 != 0:
+        total += i
+    i -= 1
 
 print(total)
 
 i = 2
-total =0
-count =0
+total = 0
+count = 0
 
-while(i<481):
-  total+=i
-  count+=1
-  i+=1
+while i < 481:
+    total += i
+    count += 1
+    i += 1
 print(total)
 print(count)
-avg = total/count
+avg = total / count
 print(avg)
 
 """break"""
 
-for i in range(1,5):
-  if(i==3):
-    break
-  print(i)
+for i in range(1, 5):
+    if i == 3:
+        break
+    print(i)
 print("outside")
 
 """continue"""
 
-for i in range(1,5):
-  if(i==3):
-    continue
-  print(i)
+for i in range(1, 5):
+    if i == 3:
+        continue
+    print(i)
 print("outside")
 
-sum=0
+sum = 0
 for i in range(40, 97):
-  if(i%2==0 and i%3==0):
-    continue
-  sum+=i
+    if i % 2 == 0 and i % 3 == 0:
+        continue
+    sum += i
 print(sum)
 
-i=1
-count=0
-while(i<101):
-  if(i%2==0 and i%6==0):
-    count+=1
-    print(count, i)
-  i+=1
+i = 1
+count = 0
+while i < 101:
+    if i % 2 == 0 and i % 6 == 0:
+        count += 1
+        print(count, i)
+    i += 1
 
 """nested loops"""
 
-for i in range(1,3):
-  print("---student",i)
-  for j in range(1,4):
-    print("subject",j)
+for i in range(1, 3):
+    print("---student", i)
+    for j in range(1, 4):
+        print("subject", j)
 
-for i in range(1,5):
-  print("---student",i)
-  for j in range(1,i+1):
-    print("subject",j)
+for i in range(1, 5):
+    print("---student", i)
+    for j in range(1, i + 1):
+        print("subject", j)
 
 i = 0
-while i <=5:
-  if(i == 3):
-    i+=1
-    continue
-  print(i)
-  i+=1
-
+while i <= 5:
+    if i == 3:
+        i += 1
+        continue
+    print(i)
+    i += 1
