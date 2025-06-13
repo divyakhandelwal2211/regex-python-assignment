@@ -112,14 +112,14 @@ equal to the original number."""
 
 
 """wap of fibonacci series"""
-# num = int(input("enter the number of terms: "))
-# a = 0
-# b = 1
-# for i in range(num):
-#     print(a, end=" ")
-#     c = a + b
-#     a = b
-#     b = c
+num = int(input("enter the number of terms: "))
+a = 0
+b = 1
+for i in range(num):
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
 
 
 """wap to find ones complement of a number"""
