@@ -72,17 +72,17 @@
 #         print(num, end=" ")
 
 """ armstrong"""
-for num in range(153, 400):
-    a = num
+# for num in range(153, 400):
+#     a = num
 
-    total = 0
-    while num > 0:
-        rem = num % 10
-        num = num // 10
-        total = total + rem**3
+#     total = 0
+#     while num > 0:
+#         rem = num % 10
+#         num = num // 10
+#         total = total + rem**3
 
-    if total == a:
-        print("armstrong", a)
+#     if total == a:
+#         print("armstrong", a)
 
 """pattern 1"""
 # for i in range(1, 5):
@@ -289,7 +289,10 @@ for num in range(153, 400):
 #         print(j, end=" ")
 #     print()
 
-
+"""- - - *
+   - - * *
+   - *   *
+   * * * *"""
 for i in range(1, 5):
     for j in range(1, 5 - i):
         print("-", end=" ")
