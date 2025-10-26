@@ -4,7 +4,7 @@
 
 # operations
 # open
-# reand and write
+# read and write
 # close
 
 # f = open("data.txt", "r")

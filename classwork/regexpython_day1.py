@@ -321,13 +321,11 @@ while i > 57:
     if i % 2 != 0:
         total += i
     i -= 1
-
 print(total)
 
 i = 2
 total = 0
 count = 0
-
 while i < 481:
     total += i
     count += 1

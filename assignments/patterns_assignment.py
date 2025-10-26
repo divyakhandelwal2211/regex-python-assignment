@@ -592,11 +592,11 @@ A               I
     C D E
     B C D E
     A B C D E"""
-for i in range(1, 6):
-    x = 70 - i
-    for j in range(i):
-        print(chr(x + j), end=" ")
-    print()
+# for i in range(1, 6):
+#     x = 70 - i
+#     for j in range(i):
+#         print(chr(x + j), end=" ")
+#     print()
 
 
 """ 1 2 3 4 5 

@@ -13,7 +13,7 @@
 # for i in range(10, 15):
 #     print("---student", i)
 #     for j in range(1, 5):
-# print("subject", j)
+#         print("subject", j)
 
 # x = 0
 # for i in range(10, 14):
@@ -137,7 +137,6 @@
 # for i in range(1, 5):
 #     for j in range(1, i + 1):
 #         print("*", end=" ")
-
 #     print("")
 
 """1
@@ -217,15 +216,15 @@
    ---**
    ----*"""
 # for i in range(1, 6):
-#  for j in range(1, i):
-#      print("-", end="")
-#  for j in range(i, 6):
-#      if j == 5 or j == i or i == 1:
-#          print("*", end="")
-#      else:
-#          print(" ", end="")
+#     for j in range(1, i):
+#         print("-", end="")
+#     for j in range(i, 6):
+#         if j == 5 or j == i or i == 1:
+#             print(j, end="")
+#         else:
+#             print(" ", end="")
+#     print()
 
-#  print()
 
 """abcd
    1abc
@@ -250,7 +249,6 @@
 #         print("-", end="")
 #     for k in range(1, i + 1):
 #         print("*", end=" ")
-
 #     print()
 
 """* * * * 
@@ -293,12 +291,12 @@
    - - * *
    - *   *
    * * * *"""
-for i in range(1, 5):
-    for j in range(1, 5 - i):
-        print("-", end=" ")
-    for j in range(1, i + 1):
-        if j == 1 or i == 4 or j == i:
-            print("*", end=" ")
-        else:
-            print(" ", end=" ")
-    print()
+# for i in range(1, 5):
+#     for j in range(1, 5 - i):
+#         print("-", end=" ")
+#     for j in range(1, i + 1):
+#         if j == 1 or i == 4 or j == i:
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
